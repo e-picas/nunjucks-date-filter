@@ -18,7 +18,7 @@ npm install nunjucks-date-filter --save-dev
 Usage
 -----
 
-You must first include the filter and add it to your *nunjucks* environment:
+You must first include the filter and then add it to your *nunjucks* environment:
 
 ```js
 var dateFilter = require('nunjucks-date-filter');
@@ -47,7 +47,7 @@ var dateFilter = require('nunjucks-date-filter');
 dateFilter.setDefaultFormat('YYYY');
 ```
 
-Once it is installed, you can call the filter in you *nunjucks* templates:
+Once it is installed, you can call the filter in your *nunjucks* templates:
 
 ```
 // with no format
@@ -64,7 +64,7 @@ This blog has been created at {{ creation_date | date("add", 7, "days") | date }
 --------------
 
 The moment library embeds [a huge set of methods](http://momentjs.com/docs/#/get-set/) to
-manipulate dates. Any of these methods can be called using the filter, passing as manu arguments
+manipulate dates. Any of these methods can be called using the filter, passing as many arguments
 as needed (see example above).
 
 
