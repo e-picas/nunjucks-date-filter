@@ -1,0 +1,42 @@
+{
+  "name": "nunjucks-date-filter",
+  "version": "0.0.0",
+  "description": "A 'date' filter for Nunjucks implementing moment.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/piwi/nunjucks-date-filter.git"
+  },
+  "keywords": [
+    "nunjucks",
+    "filter",
+    "date",
+    "moment"
+  ],
+  "author": {
+    "name": "piwi",
+    "email": "me@e-piwi.fr",
+    "url": "http://e-piwi.fr/"
+  },
+  "licenses": [
+    {
+      "type": "Apache-2.0",
+      "url": "https://github.com/piwi/grunt-nunjucks-render/blob/master/LICENSE"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/piwi/nunjucks-date-filter/issues"
+  },
+  "homepage": "https://github.com/piwi/nunjucks-date-filter",
+  "dependencies": {
+    "moment": "^2.9.0"
+  },
+  "devDependencies": {
+    "chai": "^2.1.2",
+    "mocha": "^2.2.1",
+    "nunjucks": "^1.2.0"
+  }
+}
