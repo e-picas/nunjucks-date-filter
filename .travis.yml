@@ -3,11 +3,7 @@ branches:
   only:
     - dev
     - master
-node_js:
-  - "0.11"
-  - "0.10"
 install:
-  - npm install -g grunt-cli
   - npm install
 notifications:
   email:
