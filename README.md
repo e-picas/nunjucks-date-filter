@@ -1,6 +1,8 @@
 nunjucks-date-filter
 ====================
 
+[![Code Climate](https://codeclimate.com/github/piwi/nunjucks-date-filter/badges/gpa.svg)](https://codeclimate.com/github/piwi/nunjucks-date-filter)
+
 This defines a `date` filter for [Nunjucks](http://mozilla.github.io/nunjucks/) 
 implementing [moment.js](http://momentjs.com/), a rich date manager.
 
