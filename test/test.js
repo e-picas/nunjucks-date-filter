@@ -20,6 +20,7 @@ var renderNunjucks  = function(filter, str) {
     return env.renderString(str, {'my_date': testDate});
 };
 
+/*
 describe('#init - test variables validation', function() {
     it('checking testMoment', function() {
         testMoment.format().should.equal('2015-03-21T00:00:00+01:00');
@@ -29,6 +30,7 @@ describe('#init - test variables validation', function() {
         testMomentPlus.format().should.equal('2015-03-28T00:00:00+01:00');
     });
 });
+*/
 
 describe('#dateFunction - format arg', function() {
     it('no arg - using default format', function() {
