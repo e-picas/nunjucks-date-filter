@@ -1,6 +1,6 @@
 {
   "name": "nunjucks-date-filter",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "A 'date' filter for Nunjucks implementing moment.js",
   "main": "index.js",
   "scripts": {
