@@ -62,11 +62,19 @@ This blog has been created at {{ creation_date | date("YYYY") }}.
 This blog has been created at {{ creation_date | date("add", 7, "days") | date }}.
 ```
 
-*Moment* usage
---------------
 
-The moment library embeds [a huge set of methods](http://momentjs.com/docs/#/get-set/) to
-manipulate dates. Any of these methods can be called using the filter, passing as many arguments
-as needed (see example above).
+*Momentjs* usage
+----------------
 
+The moment library proposes [a large set of date formats](http://momentjs.com/docs/#/displaying/format/)
+you can use to customize the filter output. It also embeds [a huge set of methods](http://momentjs.com/docs/#/get-set/) 
+to manipulate dates. Any of these methods can be called using the filter, passing as many 
+arguments as needed (see example above).
+
+
+Contributing
+------------
+
+In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit 
+tests for any new or changed functionality. Lint and test your code using [Mocha](http://mochajs.org/).
 
