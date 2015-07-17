@@ -6,8 +6,8 @@ var nunjucks        = require('nunjucks');
 var moment          = require('moment');
 
 var testDate        = '2015-03-21';
-var testMoment      = moment(testDate);
-var testMomentPlus  = moment(testDate).add(7, 'days');
+var testMoment      = moment.utc(testDate);
+var testMomentPlus  = moment.utc(testDate).add(7, 'days');
 var testFilterName  = 'custom_filter';
 var testFormat      = 'YYYY';
 var testDefFormat   = 'YYYY-MM-DD';
